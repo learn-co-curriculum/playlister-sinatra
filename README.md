@@ -87,7 +87,7 @@ By typing
 rspec spec/models/01_artist_spec.rb 
 ```
 
-in your bash/ command line you will only run that spec. It is important to run the specs in there numeric order. You will notice even after adding a table, model, and controller your specs are still not passing, but the error messages are changing. You have to read every errror message carefully to understand what to do next.
+in your bash/ command line you will only run that spec. It is important to run the specs in their numeric order. You will notice even after adding a table, model, and controller your specs are still not passing, but the error messages are changing. You have to read every error message carefully to understand what to do next.
 
 For the last spec `05_song_form_spec.rb` you need to implement the following features:
 
@@ -157,4 +157,6 @@ This checks to see if the variable `locals` is empty. If it isn't, then it displ
 ### Resources
 * [Clean ULR - Slugs](http://en.wikipedia.org/wiki/Slug_(web_publishing)#Slug)
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/playlister-sinatra' title='Sinatra Playlister'>Sinatra Playlister</a> on Learn.co and start learning to code for free.</p>
+<a href='https://learn.co/lessons/playlister-sinatra' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/playlister-sinatra'>Sinatra Playlister</a> on Learn.co and start learning to code for free.</p>
