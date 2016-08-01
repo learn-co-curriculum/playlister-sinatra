@@ -2,7 +2,7 @@
 
 ##Objectives
 
-* Solidify your ActiveRecord understanding
+* Solidify your Active Record understanding
 * Build out basic views for all your models
 * Create forms for editing and creating a new song that returns a well-structured params hash
 
@@ -11,7 +11,7 @@
 
 In the theme of moving from a simple command line application static website to dynamic web app, it's time to move Playlister to the interwebs using Sinatra. In this lab, you'll be:
 
-  1. Giving our "library" of songs a dynamic web interface
+  1. Giving our "library" of songs a dynamic web interface.
   2. Creating a few complex forms that allow you to create and edit Artists, Songs and Genres.
 
 ## File Structure
@@ -53,10 +53,10 @@ Your application should use the following file structure. Notice how there are s
 
 The first thing you should aim to do is create a Sinatra interface for the data in `db/data`. There is a `LibraryParser` class included in the `lib` folder that you may use, though it may need some tweaking to work with your specific application. Your associations should follow this pattern:
 
-1. An Artist can have multiple songs and multiple genres
-2. A Genre can have multiple artists and multiple songs
-3. A Song can belong to ONE Artist and multiple genres
-4. How would we implement the relationship of a song having many genres and genre having many songs? In order to establish a "many-to-many" relationship, we'll need a join table. You will need a `SongGenre` class to go along with this table in the database
+1. An Artist can have multiple songs and multiple genres.
+2. A Genre can have multiple artists and multiple songs.
+3. A Song can belong to ONE Artist and multiple genres.
+4. How would we implement the relationship of a song having many genres and a genre having many songs? In order to establish a "many-to-many" relationship, we'll need a join table. You will need a `SongGenre` class to go along with this table in the database.
 
 You should build the following routes:
 
@@ -77,8 +77,7 @@ You should build the following routes:
 6. `/genres/:slug`
   * Any given genre's show page should have links to each of its artists and songs.
 
-To get the data into your database, you will want to figure out how to use your `LibraryParser` class in the `db/seeds.rb` file.
-
+To get the data into your database, you'll want to figure out how to use the `LibraryParser` class in the `db/seeds.rb` file.
 
 ### How to approach this lab
 
