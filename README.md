@@ -123,7 +123,7 @@ In order to create a check box of all the genres on a new song form, you'll need
 
 The value attribute should be set to the genre id.
 
-The name attribute should be set to set to `genres[]` because we're dealing with a collection of attributes. This will make the params hash look like this:
+The name attribute should be set to `genres[]` because we're dealing with a collection of attributes. This will make the params hash look like this:
 
 ```ruby
 params = {
@@ -183,3 +183,5 @@ left off.
 * [Clean URL - Slugs](http://en.wikipedia.org/wiki/Slug_(web_publishing)#Slug)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/playlister-sinatra' title='Sinatra Playlister'>Sinatra Playlister</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/playlister-sinatra'>Sinatra Playlister</a> on Learn.co and start learning to code for free.</p>
